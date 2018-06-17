@@ -1,0 +1,70 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Muriel S. da Cruz",
+      "login": "muris",
+      "senha": "senha123",
+      "isAdmin": true
+
+    },
+    {
+      "id": 2,
+      "nome": "Vinicius O. Cavichiolli",
+      "login": "ozelim",
+      "senha": "vigilu",
+      "isAdmin": true
+    },
+    {
+      "id": 3,
+      "nome": "Luara Alves da Silva",
+      "login": "lulves",
+      "senha": "seremos123",
+      "isAdmin": false
+    },
+    {
+      "id": 4,
+      "nome": "Jackson G. Souza",
+      "login": "jack",
+      "senha": "angular",
+      "isAdmin": false
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Caneca de Café",
+      "categoria": "Caneca",
+      "foto": "src/assets/fotos/produtos/caneca_cafe.jpg",
+      "preço": 23.70
+    },
+    {
+      "id": 2,
+      "nome": "Pringles Clássica",
+      "categoria": "Salgadinhos",
+      "foto": "src/assets/fotos/produtos/pringles.jpg",
+      "preço": 12.90
+    },
+    {
+      "id": 3,
+      "nome": "Cebolitos Chips",
+      "categoria": "Salgadinhos",
+      "foto": "src/assets/fotos/produtos/cebolitos.jpg",
+      "preço": 23.70
+    }
+  ],
+  "itensCarrinho": [
+    {
+      "id": 1,
+      "usuarioId": 3,
+      "produtoId": 1,
+      "qtdProdutos": 2
+    },
+    {
+      "id": 2,
+      "usuarioId": 4,
+      "produtoId": 2,
+      "qtdProdutos": 1
+    }
+  ]
+}
