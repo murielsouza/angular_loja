@@ -9,12 +9,13 @@ import { PublicoComponent } from './publico/publico.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { MenuComponent } from './menu/menu.component';
 import { LoginComponent } from './login/login.component';
+import { CarrinhoComponent } from './carrinho/carrinho.component';
 
 @NgModule({
   imports: [
     CommonModule,
     PublicoRoutingModule
   ],
-  declarations: [ListaDeCategoriasComponent, HomeComponent, AreaProdutosComponent, PublicoComponent, RodapeComponent, MenuComponent, LoginComponent]
+  declarations: [ListaDeCategoriasComponent, HomeComponent, AreaProdutosComponent, PublicoComponent, RodapeComponent, MenuComponent, LoginComponent, CarrinhoComponent]
 })
 export class PublicoModule { }

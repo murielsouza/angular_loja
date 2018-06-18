@@ -10,6 +10,6 @@ export class PublicoComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  }
+    }
 
 }

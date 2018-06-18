@@ -1,3 +1,10 @@
-<p>
-  area-produtos works!
-</p>
+<div>
+  <div class=".col-6 .col-md-4" *ngFor="let produto of produtos">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="..." alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">{{produto.nome}}</p>
+      </div>
+    </div>
+  </div>
+</div>

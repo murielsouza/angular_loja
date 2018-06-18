@@ -34,21 +34,21 @@
     {
       "id": 1,
       "nome": "Caneca de Café",
-      "categoria": "Caneca",
+      "categoriaId": 3,
       "foto": "src/assets/fotos/produtos/caneca_cafe.jpg",
       "preço": 23.70
     },
     {
       "id": 2,
       "nome": "Pringles Clássica",
-      "categoria": "Salgadinhos",
+      "categoriaId": 1,
       "foto": "src/assets/fotos/produtos/pringles.jpg",
       "preço": 12.90
     },
     {
       "id": 3,
       "nome": "Cebolitos Chips",
-      "categoria": "Salgadinhos",
+      "categoriaId": 1,
       "foto": "src/assets/fotos/produtos/cebolitos.jpg",
       "preço": 23.70
     }
@@ -65,6 +65,21 @@
       "usuarioId": 4,
       "produtoId": 2,
       "qtdProdutos": 1
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Salgadinhos"
+    },
+    {
+      "id": 2,
+      "nome": "Chocolate"
+    },
+
+    {
+      "id": 3,
+      "nome": "Caneca"
     }
   ]
 }
