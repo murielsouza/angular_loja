@@ -20,10 +20,10 @@ export class ProdutosService {
   }
 
   filtrarProdutosCategoria(id: number){
-      this.produtos = this.http.get(this.API_URL + '/produtos?categoriaId=' + id));
+      ProdutosService.categoriaFiltrada.emit(this.http.get<any[]>(this.API_URL + '/produtos?categoriaId=' + id));
   }
 
-  carregarProdutos(){
-      return this.produtos;
-  }
+  //carregarProdutos(){
+  //    return this.produtos;
+  //}
 }

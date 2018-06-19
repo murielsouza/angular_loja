@@ -11,15 +11,15 @@ export class AreaProdutosComponent implements OnInit {
   produtos = null;
   status = null;
   constructor(private produtoServices: ProdutosService) {
-    this.produtos = produtoServices.carregarProdutos();
+    //this.produtos = produtoServices.carregarProdutos();
   }
 
   ngOnInit() {
 
 
-   // ProdutosService.categoriaFiltrada.subscribe(
-     //   produtos => {this.produtos = produtos}, () => this.status = false
-    //);
+    ProdutosService.categoriaFiltrada.subscribe(
+        produtos => {this.produtos = produtos}, () => this.status = false
+    );
   }
 
 }
